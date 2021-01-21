@@ -5,7 +5,7 @@ st = ''
 old_list = []
 cur_list   = []
 
-delay = 60
+delay = 3
 
 
 
