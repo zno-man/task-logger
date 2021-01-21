@@ -38,7 +38,7 @@ while(True):
 
     #get the tasklist
     try:
-        st = str(subprocess.check_output('tasklist',shell = True).decode('utf-8'))
+        st = str(subprocess.check_output('tasklist',shell = True).decode('utf-8'))  #shell = True keeps the command shell from being launched
         print('------\nlogged\n------')
 
     except:
